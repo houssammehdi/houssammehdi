@@ -12,30 +12,32 @@ code, trading research, and the occasional game.
 #### 🔧 Featured projects
 
 **[ocpp-kit](https://github.com/houssammehdi/ocpp-kit)** · TypeScript · Node.js · WebSockets\
-Type-safe OCPP 1.6-J toolkit: spec-exact RPC framing and error mapping, a Central System
-server, a charge-point client with backoff and an offline transaction queue, and a simulator
-with smart-charging profiles that can load-test a CSMS with hundreds of virtual chargers.
+A complete OCPP 1.6-J toolkit (all 28 messages, all six feature profiles): a typed RPC core,
+a Central System with TLS security profiles 2 and 3, a resilient charge-point client, a charger
+simulator for load tests, and a conformance checker that audits any CSMS against the spec.
+Property-based fuzzing, Prometheus metrics and 480 tests.
 
 **[ev-smart-charging](https://github.com/houssammehdi/ev-smart-charging)** · Python · SciPy/HiGHS\
-Schedules EV charging at sites with more chargers than grid capacity. It compares real-time
-heuristics (EDF, least laxity, price-aware) with a perfect-foresight MILP and an online MPC
-controller, measured against a certified LP lower bound, and it models the IEC 61851 6 A
-minimum, PV and demand charges.
+Smart charging under grid limits, modelled the way sites are wired: per-phase fuses on TN and
+Norwegian IT grids, the IEC 61851 6 A minimum, PV, demand charges and V2G. Real-time heuristics,
+a MILP optimum, forecast-aware MPC and a Python OCPP controller, measured against a certified LP
+bound, with a theory write-up of when each policy is optimal.
 
 **[event-backtester](https://github.com/houssammehdi/event-backtester)** · Python · pandas\
-Event-driven backtesting engine built for correctness. Look-ahead is ruled out by construction,
-fills model gaps, slippage and volume caps, and the accounting is checked every bar. It includes
-walk-forward optimisation with the deflated Sharpe ratio, plus a vectorized fast path that
-matches the event engine to floating-point precision.
+A backtesting engine built for honest results: look-ahead ruled out by construction, realistic
+fills (brackets, OCO, trailing stops, gaps), and statistics against overfitting (probability of
+backtest overfitting, Hansen's SPA, stationary bootstrap, purged CV), plus portfolio
+construction and an HTML tear sheet.
 
 **[tensorgrad](https://github.com/houssammehdi/tensorgrad)** · Python · NumPy\
-A deep-learning framework from scratch: reverse-mode autodiff over n-d tensors, 43
-gradient-checked ops, and PyTorch-style `nn` and `optim` modules. Examples go up to a
-character-level GPT that trains on a CPU in under four minutes.
+A deep-learning framework from scratch with derivatives of any order: `grad`, `jvp`, `hessian`
+and `hvp`, and every op gradient-checked and verified against PyTorch in 131 parity tests. It
+trains a character-level GPT, LSTMs and a diffusion model on a CPU.
 
 **[NeuralStyleTransfer-PyTorch](https://github.com/houssammehdi/NeuralStyleTransfer-PyTorch)** · Python · PyTorch\
-VGG-19 neural style transfer (Gatys et al.) with multi-style blending and colour preservation.
-It started as a 2019 university project and has been rewritten as a tested package with a CLI.
+A faithful implementation of Gatys et al.'s style transfer with the original Caffe VGG-19
+weights: spatial masks, colour control and coarse-to-fine synthesis, with a gallery of real
+results from public-domain inputs. It started as a 2019 university project.
 
 ---
 
