@@ -1,21 +1,18 @@
 ### Hi, I'm Houssam 👋
 
-Software engineer at **[Fount](https://fount.energy)** in Bergen, Norway, working on the software
-behind EV charging: charger communication over **OCPP**, roaming and billing, serverless
-**TypeScript** back ends on **Google Cloud / Firebase**, and **Angular** operator portals.
-
-Outside work I like building things from first principles: protocols, optimisation, numerical
-code, trading research, and the occasional game.
+Software engineer in Bergen, Norway. I work on EV charging infrastructure and like building
+things from first principles in my spare time — protocols, optimisation, numerical computing
+and trading systems.
 
 ---
 
 #### 🔧 Featured projects
 
 **[ocpp-kit](https://github.com/houssammehdi/ocpp-kit)** · TypeScript · Node.js · WebSockets\
-A complete OCPP 1.6-J toolkit (all 28 messages, all six feature profiles): a typed RPC core,
-a Central System with TLS security profiles 2 and 3, a resilient charge-point client, a charger
-simulator for load tests, and a conformance checker that audits any CSMS against the spec.
-Property-based fuzzing, Prometheus metrics and 480 tests.
+A complete OCPP 1.6-J and 2.0.1 toolkit: a typed RPC core that speaks both protocol versions on
+one port, a Central System / CSMS, resilient charge-point and charging-station clients, a charger
+simulator for mixed-fleet load tests, and conformance checkers for both versions. TLS security
+profiles, property-based fuzzing, Prometheus metrics and 949 tests.
 
 **[ev-smart-charging](https://github.com/houssammehdi/ev-smart-charging)** · Python · SciPy/HiGHS\
 Smart charging under grid limits, modelled the way sites are wired: per-phase fuses on TN and
@@ -34,7 +31,7 @@ A deep-learning framework from scratch with derivatives of any order: `grad`, `j
 and `hvp`, and every op gradient-checked and verified against PyTorch in 131 parity tests. It
 trains a character-level GPT, LSTMs and a diffusion model on a CPU.
 
-**[NeuralStyleTransfer-PyTorch](https://github.com/houssammehdi/NeuralStyleTransfer-PyTorch)** · Python · PyTorch\
+**[NeuralStyleTransfer-PyTorch](https://github.com/houssammehdi/neural-style-transfer)** · Python · PyTorch\
 A faithful implementation of Gatys et al.'s style transfer with the original Caffe VGG-19
 weights: spatial masks, colour control and coarse-to-fine synthesis, with a gallery of real
 results from public-domain inputs. It started as a 2019 university project.
@@ -48,8 +45,8 @@ results from public-domain inputs. It started as a 2019 university project.
 | **Languages** | TypeScript · Python · JavaScript · SQL · Java |
 | **Back end & cloud** | Node.js · Firebase / Cloud Functions · Firestore · Google Cloud (BigQuery, Cloud Tasks) · WebSockets · REST |
 | **Front end** | Angular · RxJS · React / Next.js · Tailwind CSS |
-| **Energy & EV** | OCPP 1.6-J · smart charging · roaming · charge-point management |
+| **Energy & EV** | OCPP 1.6-J · OCPP 2.0.1 · smart charging · roaming · charge-point management |
 | **Data & ML** | NumPy · pandas · SciPy · PyTorch |
 | **Engineering** | Git · GitHub Actions · Docker · Vitest / Jest · pytest / Hypothesis · Playwright |
 
-📍 Bergen, Norway · 🏢 [fount.energy](https://fount.energy)
+📍 Bergen, Norway
