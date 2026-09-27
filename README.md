@@ -1,11 +1,3 @@
-### Hi, I'm Houssam 👋
-
-Software engineer in Bergen, Norway. I work on EV charging infrastructure and like building
-things from first principles in my spare time — protocols, optimisation, numerical computing
-and trading systems.
-
----
-
 #### 🔧 Featured projects
 
 **[ocpp-kit](https://github.com/houssammehdi/ocpp-kit)** · TypeScript · Node.js · WebSockets\
