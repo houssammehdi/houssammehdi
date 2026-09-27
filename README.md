@@ -23,7 +23,7 @@ A deep-learning framework from scratch with derivatives of any order: `grad`, `j
 and `hvp`, and every op gradient-checked and verified against PyTorch in 131 parity tests. It
 trains a character-level GPT, LSTMs and a diffusion model on a CPU.
 
-**[NeuralStyleTransfer-PyTorch](https://github.com/houssammehdi/neural-style-transfer)** · Python · PyTorch\
+**[neural-style-transfer](https://github.com/houssammehdi/neural-style-transfer)** · Python · PyTorch\
 A faithful implementation of Gatys et al.'s style transfer with the original Caffe VGG-19
 weights: spatial masks, colour control and coarse-to-fine synthesis, with a gallery of real
 results from public-domain inputs. It started as a 2019 university project.
